@@ -1,36 +1,88 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+<h1 align="center">
+Readme em construção ⚠️
+</br>
+  <!-- <img alt="devstore app" title="devstore app" src="./src/assets/logo.svg" width="200px" /> -->
+</h1>
 
-First, run the development server:
+<h3 align="center">
+Aplicação de e-commerce.
+</h3>
+<h5 align="center">
+  Feito com NEXT.js +  TypeScript
+</h5>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+<!-- <h3 align="center">
+  <a href="https://todo.burndev.app/">🗒️ Teste o App aqui :)</a>
+</h3> -->
+
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/burn-c/devstore?color=red">
+  <img alt="License" src="https://img.shields.io/badge/licence-MIT-red">
+   <a href="https://www.linkedin.com/in/carlosoliveiradev/">
+    <img alt="Made by Carlos Oliveira" src="https://img.shields.io/badge/made%20by-carlos%20oliveira-red">
+  </a>
+  <a href="https://github.com/burn-c/goeat-api/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/burn-c/devstore?style=social">
+  </a>
+</p>
+
+<p align="center">
+  <a href="#---instalar-e-executar">Instalar e executar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-frontend">Frontend</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-telas">Telas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Tecnologias</a>
+</p>
+
+<hr>
+
+<h1 align="center">
+  ⚙ Instalar e executar
+</h1>
+
+
+## 🖥 Frontend
+
+1. Clonar repositório:
+
+```sh
+git clone https://github.com/burn-c/devstore.git
+```
+2. Entre na pasta do projeto clonado e instale às dependências utilizando o comando:
+
+```sh
+yarn ou npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Executar o projeto:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```sh
+yarn dev ou npm dev
+```
+## 🖥️ Telas
+<!-- <div align='center'>
+  <img alt="App empty state" title="App empty state" src="./docs/empty.png" width="600px" />
+  <img alt="App taks created" title="App taks created" src="./docs/task-created.png" width="600px" />
+  <img alt="App taks created" title="App taks created" src="./docs/progress-task.png" width="600px" />
+</div> -->
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 🛠 Tecnologias
 
-## Learn More
+O projeto foi desenvolvido com as seguintes tecnologias:
+- [NEXT.js Documentation](https://nextjs.org/docs)
+-  [Node.js](https://nodejs.org/)
+-  [ReactJS](https://reactjs.org/)
+-  [TypeScript](https://www.typescriptlang.org/)
+-  [ESLint](https://eslint.org/)
+-  [Prettier](https://prettier.io/)
+-  [VS Code](https://code.visualstudio.com/)
+<!-- -  [Vite](https://vitejs.dev/) -->
+<!-- -  [CSS3](https://www.w3.org/Style/CSS/Overview.en.html) -->
+<!-- -  [Phosphor Icons](https://phosphoricons.com/) -->
+<!-- -  [uuid](https://github.com/uuidjs/uuid) -->
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Encontrou algum erro ? Tem alguma dica ? Enviei uma pull request! Ficarei feliz em receber! 😁
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Made with 🔥 by Carlos Oliveira ( BurN  ) - [My linkedin!](https://www.linkedin.com/in/carlosoliveiradev/)
