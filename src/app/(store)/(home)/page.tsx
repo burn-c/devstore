@@ -5,13 +5,22 @@ import { Product } from '@/data/@types/products'
 import { api } from '@/data/api'
 import { formatPriceWithoutDecimals } from '@/utils/formatPriceWithoutDecimals'
 
+/**
+ * Cache & Memoization
+ */
+
 async function getFeaturedProducts(): Promise<Product[]> {
-  const response = await api('/products/featured')
+  const response = await api('/products/featured', {
+    next: {
+      revalidate: 60 * 60, // 1 hour
+    },
+  })
 
   const products = await response.json()
 
   return products
 }
+
 export default async function Home() {
   const [highlightedProduct, ...otherProducts] = await getFeaturedProducts()
 
