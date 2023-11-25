@@ -70,12 +70,12 @@ yarn dev ou npm dev
 
 O projeto foi desenvolvido com as seguintes tecnologias:
 - [NEXT.js Documentation](https://nextjs.org/docs)
--  [Node.js](https://nodejs.org/)
--  [ReactJS](https://reactjs.org/)
--  [TypeScript](https://www.typescriptlang.org/)
--  [ESLint](https://eslint.org/)
--  [Prettier](https://prettier.io/)
--  [VS Code](https://code.visualstudio.com/)
+- [Node.js](https://nodejs.org/)
+- [ReactJS](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [ESLint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
+- [VS Code](https://code.visualstudio.com/)
 <!-- -  [Vite](https://vitejs.dev/) -->
 <!-- -  [CSS3](https://www.w3.org/Style/CSS/Overview.en.html) -->
 <!-- -  [Phosphor Icons](https://phosphoricons.com/) -->
